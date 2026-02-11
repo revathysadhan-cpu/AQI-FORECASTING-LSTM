@@ -8,24 +8,24 @@ The system predicts the next 7 days AQI for multiple Indian cities and provides 
 
 ## Features
 
-- ✅ 7-day AQI forecast using LSTM time-series model
-- ✅ Supports multiple cities:
+-  7-day AQI forecast using LSTM time-series model
+-  Supports multiple cities:
   - Delhi
   - Bengaluru
   - Thiruvananthapuram (TVM)
-- ✅ Historical AQI trend visualization
-- ✅ Forecast trend visualization
-- ✅ Combined (Historical + Forecast) visualization
-- ✅ AQI Category labels:
+-  Historical AQI trend visualization
+-  Forecast trend visualization
+-  Combined (Historical + Forecast) visualization
+-  AQI Category labels:
   - Good
   - Satisfactory
   - Moderate
   - Poor
   - Very Poor
   - Severe
-- ✅ Download forecast results as CSV
-- ✅ Power BI dashboard screenshots integrated for city-wise comparison
-- ✅ User-friendly web interface built using Streamlit
+-  Download forecast results as CSV
+-  Power BI dashboard screenshots integrated for city-wise comparison
+-  User-friendly web interface built using Streamlit
 
 ## Project Workflow
 
@@ -69,15 +69,15 @@ The system predicts the next 7 days AQI for multiple Indian cities and provides 
 
 ## How to Run the Project
 
-### 1️⃣ Install Dependencies
+### 1) Install Dependencies
 
 pip install streamlit tensorflow pandas numpy matplotlib
 
-### 2️⃣ Run the Streamlit App
+### 2) Run the Streamlit App
 
 streamlit run app.py
 
-### 3️⃣ Open in Browser
+### 3) Open in Browser
 
 After running the command, a browser window will open showing the AQI Forecasting Web App.
 
