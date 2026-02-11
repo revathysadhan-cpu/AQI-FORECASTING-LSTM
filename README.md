@@ -51,22 +51,6 @@ The system predicts the next 7 days AQI for multiple Indian cities and provides 
 - Web App: Streamlit  
 - Dashboard & BI: Power BI  
 
-## Project Structure
-
-├── app.py                     # Streamlit web application
-├── delhi_aqi.csv              # Delhi AQI dataset
-├── blr_aqi.csv                # Bengaluru AQI dataset
-├── tvm_aqi.csv                # TVM AQI dataset
-├── lstm_delhi.h5              # Trained LSTM model for Delhi
-├── lstm_blr.h5                # Trained LSTM model for Bengaluru
-├── lstm_tvm.h5                # Trained LSTM model for TVM
-├── scaler_delhi.pkl           # Scaler for Delhi
-├── scaler_blr.pkl             # Scaler for Bengaluru
-├── scaler_tvm.pkl             # Scaler for TVM
-├── aqi_powerbi.png            # Power BI dashboard screenshot
-└── aqi_prediction.ipynb       # Jupyter notebook (training & experiments)
----
-
 ## How to Run the Project
 
 ### 1) Install Dependencies
