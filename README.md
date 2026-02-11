@@ -1,13 +1,12 @@
-```markdown
-# 🌫️ AQI Forecasting System using LSTM
 
-This project is an end-to-end **Air Quality Index (AQI) forecasting system** built using **Deep Learning (LSTM)**, deployed as a **Streamlit web application**, and complemented with **Power BI** dashboards for comparative analysis.
+ ## AQI Forecasting System using LSTM
 
-The system predicts the **next 7 days AQI** for multiple Indian cities and provides interactive visualizations, AQI category interpretation, and downloadable forecast reports.
+This project is an end-to-end Air Quality Index (AQI) forecasting system built using Deep Learning (LSTM), deployed as a Streamlit web application, and complemented with Power BI dashboards for comparative analysis.
 
----
+The system predicts the next 7 days AQI for multiple Indian cities and provides interactive visualizations, AQI category interpretation, and downloadable forecast reports.
 
-## 🚀 Features
+
+## Features
 
 - ✅ 7-day AQI forecast using LSTM time-series model
 - ✅ Supports multiple cities:
@@ -28,9 +27,7 @@ The system predicts the **next 7 days AQI** for multiple Indian cities and provi
 - ✅ Power BI dashboard screenshots integrated for city-wise comparison
 - ✅ User-friendly web interface built using Streamlit
 
----
-
-## 🧠 Project Workflow
+## Project Workflow
 
 1. Data collection and preprocessing of air quality data
 2. AQI calculation from pollutant concentrations
@@ -45,24 +42,17 @@ The system predicts the **next 7 days AQI** for multiple Indian cities and provi
 7. Creating Power BI dashboards for comparative analysis
 8. Integrating Power BI outputs into the application using screenshots
 
----
+## Tech Stack
 
-## 🛠️ Tech Stack
+- Programming Language: Python  
+- Machine Learning / Deep Learning: TensorFlow, Keras (LSTM)  
+- Data Processing: Pandas, NumPy  
+- Visualization: Matplotlib  
+- Web App: Streamlit  
+- Dashboard & BI: Power BI  
 
-- **Programming Language:** Python  
-- **Machine Learning / Deep Learning:** TensorFlow, Keras (LSTM)  
-- **Data Processing:** Pandas, NumPy  
-- **Visualization:** Matplotlib  
-- **Web App:** Streamlit  
-- **Dashboard & BI:** Power BI  
+## Project Structure
 
----
-
-## 📁 Project Structure
-
-```
-
-.
 ├── app.py                     # Streamlit web application
 ├── delhi_aqi.csv              # Delhi AQI dataset
 ├── blr_aqi.csv                # Bengaluru AQI dataset
@@ -75,45 +65,34 @@ The system predicts the **next 7 days AQI** for multiple Indian cities and provi
 ├── scaler_tvm.pkl             # Scaler for TVM
 ├── aqi_powerbi.png            # Power BI dashboard screenshot
 └── aqi_prediction.ipynb       # Jupyter notebook (training & experiments)
-
-````
-
 ---
 
-## ▶️ How to Run the Project
+## How to Run the Project
 
 ### 1️⃣ Install Dependencies
 
-```bash
 pip install streamlit tensorflow pandas numpy matplotlib
-````
 
 ### 2️⃣ Run the Streamlit App
 
-```bash
 streamlit run app.py
-```
 
 ### 3️⃣ Open in Browser
 
 After running the command, a browser window will open showing the AQI Forecasting Web App.
 
----
+## Power BI Dashboard
 
-## 📊 Power BI Dashboard
-
-The project also includes a **Power BI dashboard** for:
+The project also includes a Power BI dashboard for:
 
 * City-wise AQI comparison
 * Historical trends
 * Summary insights
 
 A screenshot of the dashboard is included in the app under:
-**City Comparison (Power BI)** page.
+City Comparison (Power BI) page.
 
----
-
-## 📈 Example Use Cases
+## Example Use Cases
 
 * Air quality trend analysis
 * Short-term AQI forecasting
