@@ -10,19 +10,19 @@ The system predicts the next 7 days AQI for multiple Indian cities and provides 
 
 -  7-day AQI forecast using LSTM time-series model
 -  Supports multiple cities:
-  - Delhi
-  - Bengaluru
-  - Thiruvananthapuram (TVM)
+    - Delhi
+    - Bengaluru
+    - Thiruvananthapuram (TVM)
 -  Historical AQI trend visualization
 -  Forecast trend visualization
 -  Combined (Historical + Forecast) visualization
 -  AQI Category labels:
-  - Good
-  - Satisfactory
-  - Moderate
-  - Poor
-  - Very Poor
-  - Severe
+    - Good
+    - Satisfactory
+    - Moderate
+    - Poor
+    - Very Poor
+    - Severe
 -  Download forecast results as CSV
 -  Power BI dashboard screenshots integrated for city-wise comparison
 -  User-friendly web interface built using Streamlit
